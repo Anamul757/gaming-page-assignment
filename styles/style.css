@@ -123,6 +123,10 @@ li{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+    #play-image:hover{
+cursor: pointer;
+border: 1px rgb(244, 32, 152);
+    }
 .gaming-img{
     width: 342px;
     height: 400px;
@@ -235,4 +239,4 @@ footer{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-}
+}    
