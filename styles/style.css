@@ -165,3 +165,16 @@ li{
    top: -12rem;
    right:5rem;
 }
+/* game bar related style */
+.game-bar{
+    display: flex;
+}
+.game-bar-section{
+    border: 1px solid white;
+    display: flex;
+    width: 60%;
+    padding: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
