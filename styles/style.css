@@ -178,3 +178,51 @@ li{
     align-items: center;
     flex-wrap: wrap;
 }
+/* Footer section */
+footer{
+    background: #0B0223;
+    width: 1920px;
+    height: 636px;
+    width: 100%;
+}
+#footer-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-heading{
+    color: #FFF;
+}
+.footer-list{
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    gap: 50px;
+}
+#footer-icon{
+    size: 3rem;
+    align-items: center;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    margin-top: 50px;
+}
+.footer-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
