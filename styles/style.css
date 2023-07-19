@@ -11,27 +11,27 @@ body{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
-font-size: 20px;
-font-weight: 70px;
-text-transform: uppercase;
-display: inline-flex;
-padding: 21px 30px;
-align-items: flex-start;
-gap: 10px;
+    font-size: 20px;
+    font-weight: 70px;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 30px;
+    align-items: flex-start;
+    gap: 10px;
 }
 .purple-section{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 48px;
-font-weight: 700;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
 }
 .paragraph-section{
     color: #534C64;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 /* header related style */
 nav{
@@ -46,9 +46,7 @@ nav{
 .header-section{
     display:flex;
     align-items: center;
-    
     font-size: 2.8rem;
-    font-style: normal;
     font-weight: 700;
 
 }
@@ -117,9 +115,9 @@ li{
 /* online games styles */
 .online-games-heading{
     color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
 }
 .online-games-img{
     display: grid;
@@ -134,9 +132,36 @@ font-weight: 700;
     gap: 5px;
 }
 .play-btn{
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
-    z-index: 2;
-    
+    position: relative;
+    top: -200px;
+    right:40px;
+}
+/* Play section styles */
+.play-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-section-heading{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+#play-para{
+    text-align: center;
+}
+.play-img-sec{
+    position:relative;
+}
+.img-position{
+   position: relative;
+   top: -12rem;
+   right:5rem;
 }
