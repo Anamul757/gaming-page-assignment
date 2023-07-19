@@ -168,17 +168,24 @@ li{
 /* game bar related style */
 .game-bar{
     display: flex;
+    gap: 8px;
 }
 .game-bar-section{
-    border: 1px solid white;
+    background-color: white;
     display: flex;
-    width: 60%;
-    padding: 20rem;
+    width: 80%;
+    padding: 8rem;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-/* Footer section */
+.game-bar:hover{
+    border: 2px solid rgba(248, 7, 120, 0.842);
+    border-radius: 12px;
+    color: pink;
+    cursor: pointer;
+}
+/* Footer related style */
 footer{
     background: #0B0223;
     width: 1920px;
@@ -212,6 +219,9 @@ footer{
     justify-content: center;
     gap:15px;
     margin-top: 50px;
+}
+.btn-icon{
+    background: none;
 }
 .footer-para{
     display: flex;
