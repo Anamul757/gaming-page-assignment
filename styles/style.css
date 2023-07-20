@@ -38,7 +38,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 130px;
     width: auto;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -171,17 +170,16 @@ border: 1px rgb(244, 32, 152);
 }
 /* game bar related style */
 .game-bar{
-    display: flex;
-    gap: 8px;
+     display: flex;
+    gap: 8px; 
 }
 .game-bar-section{
     background-color: white;
-    display: flex;
-    width: 80%;
-    padding: 8rem;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding:0px 8rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
 }
 .game-bar:hover{
     border: 2px solid rgba(248, 7, 120, 0.842);
@@ -240,3 +238,23 @@ footer{
     justify-content: center;
     margin-top: 20px;
 }    
+/* mobile device */
+@media screen and (max-width:576px) {
+    nav{flex-direction: column;justify-content: center;align-items: center; }
+    .listed-item{flex-direction: column;}
+    .goat-section{flex-direction: column;}
+    .online-games-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+        .play-section{flex-direction: column}
+        .game-bar-section{
+            background-color: white;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding:0px 0px;
+}
+
+@media screen and (min-width:577) {
+    
+}
