@@ -123,8 +123,9 @@ li{
     grid-template-columns: repeat(4, 1fr);
 }
     #play-image:hover{
-cursor: pointer;
-border: 1px rgb(244, 32, 152);
+    cursor: pointer;
+    border: 1px rgb(244, 32, 152);
+
     }
 .gaming-img{
     width: 342px;
@@ -134,6 +135,24 @@ border: 1px rgb(244, 32, 152);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
     gap: 5px;
 }
+.gaming-icon{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    size: 40px;
+    content: "";
+    position: absolute;
+    top: 198%;
+    left: 695px;
+    background-color:rgba(43, 37, 37, 0.709);
+    height: 72%;
+    width: 27%;
+}
+.gaming-img:hover, .gaming-icon{
+    opacity: 1;
+}
+
 .play-btn{
     display: flex; 
     justify-content: center;
