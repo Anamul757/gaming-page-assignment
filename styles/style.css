@@ -132,26 +132,7 @@ li{
     height: 400px;
     border: 1px solid pink;
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), lightgray 50% / cover no-repeat;
-    gap: 5px;
 }
-.gaming-icon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    size: 40px;
-    content: "";
-    position: absolute;
-    top: 198%;
-    left: 695px;
-    background-color:rgba(43, 37, 37, 0.709);
-    height: 72%;
-    width: 27%;
-}
-#play-img:hover .gaming-icon{
-        visibility: hidden;
-}
-
 
 .play-btn{
     display: flex; 
@@ -268,21 +249,46 @@ footer{
     }
         .play-section{flex-direction: column}
         .game-bar-section{
-            background-color: white;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            padding:0px 0px;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:0px 0px;
+        }
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);}
+    .footer-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
             }
-            .footer-list{
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);}
-                .footer-img{
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                }
-                .footer-para{
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-
-                }
+    .footer-para{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);}
 }
+@media screen and (max-width:992px)
+ {nav{flex-direction: column;justify-content: center;align-items: center; }
+ .listed-item{flex-direction: column;}
+ .goat-section{flex-direction: column;}
+ .online-games-img{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
+     .play-section{flex-direction: column}
+     .game-bar-section{
+     background-color: white;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:0px 0px;
+     }
+ .footer-list{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);}
+ .footer-img{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+         }
+ .footer-para{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);}
+}
+    
